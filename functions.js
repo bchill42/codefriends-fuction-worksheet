@@ -29,6 +29,7 @@ let prompt = require('prompt-sync')();
 //         return console.log('false');
 //     }
 // })();
+
   
   /*
    * PROBLEM `concatenateArrays`
@@ -52,6 +53,12 @@ let prompt = require('prompt-sync')();
 //   let a=[1,2,3];
 //   let b=[4,5,6];
 //   console.log(concatenateArrays(a,b));
+
+// with built in array method concat
+//   let a=[1,2,3];
+//   let b=[4,5,6];
+//   let concatenateArrays = a.concat(b);
+//   console.log(concatenateArrays);    
   
   /*
    * PROBLEM `fixProperNoun`
@@ -74,7 +81,7 @@ let prompt = require('prompt-sync')();
 //   let name = prompt('Enter a name: ');
 //   fixProperNoun(name);
 
-
+//// Not apart of the this worksheet
 // Examples of different way to write functions
 // function hello1(){
 //     return ('hello world 1');
@@ -549,7 +556,7 @@ let prompt = require('prompt-sync')();
    *
    * If the input is invalid throw an 'Invalid Input' exception.
    */
-  // mine
+  // 
 //   const a = [5,6,4,1,2,3,3,4,4,4,4,4,5];
 //   const b = [3,4,5,5,6,7];
 //   let both = a.filter(function (e) {
